@@ -1,7 +1,7 @@
 {
-  "name": "passport-oauth2",
+  "name": "passport-oauth2-adfs-support",
   "version": "1.4.0",
-  "description": "OAuth 2.0 authentication strategy for Passport.",
+  "description": "OAuth 2.0 authentication strategy with ADFS support for Passport.",
   "keywords": [
     "passport",
     "auth",
@@ -10,19 +10,19 @@
     "authz",
     "authorization",
     "oauth",
-    "oauth2"
+    "oauth2",
+    "adfs"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Harshil Patel",
+    "email": "patelharshil123@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-oauth2.git"
+    "url": "https://github.com/Harshil1989/passport-oauth2-adfs-support.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-oauth2/issues"
+    "url": "https://github.com/Harshil1989/passport-oauth2-adfs-support/issues"
   },
   "license": "MIT",
   "licenses": [
