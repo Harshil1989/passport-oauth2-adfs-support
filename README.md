@@ -32,7 +32,7 @@ passport.use(new OAuth2Strategy({
     clientSecret: EXAMPLE_CLIENT_SECRET,
     resource: EXAMPLE_RESOURCE,
     callbackURL: "http://localhost:3000/auth/example/callback",
-    passReqToCallback: true       // optional - request argument might not be required in the callback function if set to false
+    passReqToCallback: true
   },
   function(request, accessToken, refreshToken, profile, cb) {
     User.findOrCreate({ exampleId: profile.id }, function (err, user) {
